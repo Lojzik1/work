@@ -1,0 +1,22 @@
+
+
+button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    background-color: #61677A;
+    color: #272829;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: fixed;
+    right: 40%;
+    bottom: 20%;
+    border: black;
+}
